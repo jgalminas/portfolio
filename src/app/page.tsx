@@ -6,11 +6,11 @@ import Projects from '@/components/Projects';
 export default function Home() {
 
   return (
-    <main className='container mx-auto py-[144px] flex flex-col lg:flex-row justify-between p-6 gap-24'>
+    <main className='container mx-auto flex flex-col lg:flex-row justify-between gap-24'>
 
       <About/>
 
-      <section className='w-full lg:w-6/12 flex flex-col gap-24'>
+      <section className='w-full lg:w-6/12 flex flex-col gap-24 py-[144px]'>
 
         <section>
           <h3 className='text-2xl font-semibold text-white mb-12'> Industry Experience </h3>
