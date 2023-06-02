@@ -25,12 +25,11 @@ export default function Projects({ data }: ProjectsProps) {
 							<p className='text-slate-400 mb-3'> { prj.description } </p>
 
 							{ (prj.repositoryUrl || prj.websiteUrl) &&
-								<div className='flex gap-6 mb-2'>
+								<div className='flex gap-6'>
 									{ prj.repositoryUrl && <IconLink icon={<GitHubIcon/>} href={prj.repositoryUrl}> Repository </IconLink> }
 									{ prj.websiteUrl && <IconLink icon={<LinkIcon/>} href={prj.websiteUrl}> Website </IconLink> }
 								</div>
 							}
-
 
 							<Skills skills={prj.skills}/>
 			
