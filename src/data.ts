@@ -30,3 +30,25 @@ export const EDUCATION: Experience[] = [
 		place: 'City College Plymouth'
 	}
 ];
+
+export type Project = {
+	title: string,
+	description: string,
+	imageUrl: string,
+	imageAlt: string,
+	repositoryUrl?: string,
+	websiteUrl?: string,
+	skills?: string[]
+}
+
+export const PROJECTS: Project[] = [
+	{
+		title: 'Project Management Application',
+		description: 'Project description of at least a paragraph or less. Also containing links to GitHub and the hosted website wherever possible.',
+		imageUrl: '/nma_dashboard.png',
+		imageAlt: 'Image of a project management application',
+		repositoryUrl: 'repository',
+		websiteUrl: 'website',
+		skills: [ 'ASP.NET', 'C#', 'Blazor', 'Bootstrap', 'CSS' ]
+	}
+];

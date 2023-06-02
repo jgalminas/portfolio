@@ -7,7 +7,7 @@ export interface ExperienceProps {
 
 export default function Experience({ data }: ExperienceProps) {
 	return (
-		<section className='flex flex-col gap-12'>
+		<div className='flex flex-col gap-12'>
 			{ data.map((exp, key) => {
 				return (
 					<div key={key} className='flex gap-6'>
@@ -26,6 +26,6 @@ export default function Experience({ data }: ExperienceProps) {
 					</div>
 				)
 			}) }
-		</section>
+		</div>
 	)
 }
