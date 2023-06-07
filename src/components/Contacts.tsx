@@ -7,11 +7,11 @@ export default function Contacts() {
 	return (
 		<section className='flex gap-6 items-center flex-wrap'>
 			
-			<a href='https://linkedin.com/in/jgalminas/'>
+			<a href='https://linkedin.com/in/jgalminas/' aria-label='Link to LinkedIn profile'>
 				<LinkedInIcon className='w-6 h-6'/>
 			</a>
 
-			<a href='https://github.com/jgalminas'>
+			<a href='https://github.com/jgalminas' aria-label='Link to GitHub profile'>
 				<GitHubIcon className='w-6 h-6'/>
 			</a>
 

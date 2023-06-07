@@ -1,4 +1,5 @@
 import Contacts from './Contacts';
+import DownloadIcon from '../icons/DownloadIcon.svg';
 
 export default function About() {
 	return (
@@ -11,10 +12,17 @@ export default function About() {
           <br/><br/>
           I thrive in creating innovative solutions and delivering exceptional user experiences. Let&apos;s connect and turn ideas into reality!
         </p>
+        
+        <a href='/cv.pdf' download='Justas Galminas CV.pdf'
+        className='font-semibold hover:text-slate-200 transition-colors duration-200 transform text-cyan-400 mt-12 flex gap-3 items-center w-fit'>
+          <DownloadIcon className='w-6 h-6'/>
+          Download CV
+        </a>
 
-        <div className='mt-auto pt-12'>
+        <div className='mt-auto pt-24'>
           <Contacts/>
         </div>
+
 
       </section>
 	)
