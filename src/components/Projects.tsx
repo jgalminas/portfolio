@@ -17,7 +17,7 @@ export default function Projects({ data }: ProjectsProps) {
 					<div key={key} className='flex flex-col sm:flex-row gap-6'>
 						
 						<div className='w-full sm:w-2/3'>
-							<Image className='object-cover rounded-lg' width={640} height={360} src={prj.imageUrl} alt={prj.imageAlt}/>
+							<Image className='object-cover rounded-lg' width={1920} height={1080} src={prj.imageUrl} alt={prj.imageAlt}/>
 						</div>
 						
 						<div className='flex flex-col gap-3'>
@@ -26,8 +26,8 @@ export default function Projects({ data }: ProjectsProps) {
 
 							{ (prj.repositoryUrl || prj.websiteUrl) &&
 								<div className='flex gap-6'>
-									{ prj.repositoryUrl && <IconLink icon={<GitHubIcon/>} href={prj.repositoryUrl}> Repository </IconLink> }
-									{ prj.websiteUrl && <IconLink icon={<LinkIcon/>} href={prj.websiteUrl}> Website </IconLink> }
+									{ prj.repositoryUrl && <IconLink icon={<GitHubIcon className='w-5 h-5'/>} href={prj.repositoryUrl}> Repository </IconLink> }
+									{ prj.websiteUrl && <IconLink icon={<LinkIcon className='w-5 h-5'/>} href={prj.websiteUrl}> Website </IconLink> }
 								</div>
 							}
 
