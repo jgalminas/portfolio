@@ -14,10 +14,10 @@ export default function Projects({ data }: ProjectsProps) {
 		<div className='flex flex-col gap-12'>
 			{ data.map((prj, key) => {
 				return (
-					<div key={key} className='flex gap-6'>
+					<div key={key} className='flex flex-col sm:flex-row gap-6'>
 						
-						<div className='w-2/3'>
-							<Image className='object-cover rounded-lg' width={250} height={140.63} src={prj.imageUrl} alt={prj.imageAlt}/>
+						<div className='w-full sm:w-2/3'>
+							<Image className='object-cover rounded-lg' width={640} height={360} src={prj.imageUrl} alt={prj.imageAlt}/>
 						</div>
 						
 						<div className='flex flex-col gap-3'>

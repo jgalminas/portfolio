@@ -10,7 +10,7 @@ export default function Experience({ data }: ExperienceProps) {
 		<div className='flex flex-col gap-12'>
 			{ data.map((exp, key) => {
 				return (
-					<div key={key} className='flex gap-6'>
+					<div key={key} className='flex flex-col sm:flex-row gap-3 sm:gap-6'>
 
 						<p className='text-slate-400 min-w-fit'> { exp.date } </p>
 						
