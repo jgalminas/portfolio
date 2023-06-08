@@ -15,8 +15,8 @@ export default function Experience({ data }: ExperienceProps) {
 						<p className='text-slate-400 min-w-fit'> { exp.date } </p>
 						
 						<div className='flex flex-col gap-3'>
-							<h4 className='text-xl text-slate-200 font-semibold'> { exp.title } </h4>
-							<h5 className='text-lg text-slate-300'> at <span className='font-semibold'> { exp.place } </span> </h5>
+							<h2 className='text-xl text-slate-200 font-semibold'> { exp.title } </h2>
+							<h3 className='text-lg text-slate-300'> at <span className='font-semibold'> { exp.place } </span> </h3>
 							<p className='text-slate-400 mb-3'> { exp.description } </p>
 			
 							<Skills skills={exp.skills}/>

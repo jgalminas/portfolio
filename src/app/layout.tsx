@@ -1,3 +1,4 @@
+import { ReactNode } from 'react';
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -8,7 +9,11 @@ export const metadata = {
   description: "Justas Galminas's Portfolio",
 }
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+interface RootLayoutProps {
+  children: ReactNode
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en">
