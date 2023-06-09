@@ -9,7 +9,7 @@ export default function Skills({ skills }: SkillsProps) {
 			{ skills.map(sk => {
 				return (
 					<li key={sk}
-					className='bg-cyan-900 hover:bg-cyan-800 px-4 py-0.5 rounded-lg text-sm font-medium text-cyan-400 hover:text-cyan-300
+					className='bg-[#0A3444] hover:bg-cyan-800 px-4 py-1 rounded-sm text-sm font-medium text-cyan-400 hover:text-cyan-300
 					cursor-default hover:shadow-lg transition-colors duration-150'>
 						{ sk }
 					</li>

@@ -17,11 +17,11 @@ export default function Projects({ data }: ProjectsProps) {
 					<div key={key} className='flex flex-col sm:flex-row gap-6'>
 						
 						<div className='w-full sm:w-2/3'>
-							<Image className='object-cover rounded-lg' width={1920} height={1080} src={prj.imageUrl} alt={prj.imageAlt}/>
+							<Image className='object-cover rounded-sm' width={1920} height={1080} src={prj.imageUrl} alt={prj.imageAlt}/>
 						</div>
 						
 						<div className='flex flex-col gap-3'>
-							<h4 className='text-xl text-slate-200 font-semibold'> { prj.title } </h4>
+							<h2 className='text-xl text-slate-200 font-semibold'> { prj.title } </h2>
 							<p className='text-slate-400 mb-3'> { prj.description } </p>
 
 							{ (prj.repositoryUrl || prj.websiteUrl) &&
