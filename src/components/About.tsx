@@ -13,6 +13,9 @@ export default function About() {
           I thrive in creating innovative solutions and delivering exceptional user experiences. Let&apos;s connect and turn ideas into reality!
         </p>
         
+        <small className='absolute w-80 h-80 pb-80 bg-gray-200 left-0 top-0 rounded-br-full bg-gradient-to-br from-[#21212E] to-background blur-3xl
+        -z-10'/>
+
         <a href='/cv.pdf' download='Justas Galminas CV.pdf'
         className='font-semibold hover:text-slate-200 transition-colors duration-200 transform text-cyan-400 mt-12 flex gap-3 items-center w-fit'>
           <DownloadIcon className='w-6 h-6'/>
