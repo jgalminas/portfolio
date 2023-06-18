@@ -7,12 +7,10 @@ export default function About() {
         <h2 className='text-2xl font-semibold text-slate-300 mt-4'> Final Year Software Development Student </h2>
 
         <p className='text-slate-400 mt-6'>
-          Hello! I&apos;m Justas, a passionate software engineer specialising in full-stack web development. I am most experienced with React, Next.js, TypeScript, C#, ASP.NET and Node.js, however, I like to continuously learn and keep up-to-date with the latest trends and technologies.
-          <br/><br/>
-          I thrive in creating innovative solutions and delivering exceptional user experiences. Let&apos;s connect and turn ideas into reality!
+          Hello! My name is Justas. I&apos;m a passionate software developer specialising in full-stack web development. I&apos;m most experienced with React, Next.js, TypeScript, C#, ASP.NET and Node.js, however, I like to continuously learn and keep up-to-date with the latest trends and technologies.
         </p>
         
-        <small className='absolute w-80 h-80 pb-80 bg-gray-200 left-0 top-0 rounded-br-full bg-gradient-to-br from-background2 to-background blur-3xl
+        <small className='absolute w-[30rem] h-[30rem] pb-80 left-0 top-0 rounded-br-full bg-gradient-to-br from-background2 to-background blur-3xl
         -z-10'/>
 
         <a href='/cv.pdf' download='Justas Galminas CV.pdf'
