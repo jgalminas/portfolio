@@ -8,9 +8,9 @@ export type Experience = {
 
 export const EXPERIENCE: Experience[] = [
 	{
-		title: 'BSc Computer Science (Software Engineering)',
+		title: 'Software Engineer Summer Internship',
 		description: 'Worked on a multi-year project alongside a small team, creating an interactive learning platform where lecturers can test students\' knowledge and provide feedback and additional support.',
-		date: '2018 — 2019',
+		date: '2022 Aug — 2022 Sep',
 		place: 'University of Plymouth',
 		skills: [ 'ASP.NET', 'C#', 'Blazor', 'Bootstrap', 'CSS' ]
 	}
@@ -20,13 +20,13 @@ export const EDUCATION: Experience[] = [
 	{
 		title: 'BSc Computer Science (Software Engineering)',
 		description: 'Grade',
-		date: '2018 — 2019',
+		date: '2021 — Present',
 		place: 'University of Plymouth'
 	},
 	{
 		title: 'Access to HE (Computing)',
 		description: 'Distinction',
-		date: '2018 — 2019',
+		date: '2020 — 2021',
 		place: 'City College Plymouth'
 	}
 ];

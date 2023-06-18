@@ -12,7 +12,7 @@ export default function Experience({ data }: ExperienceProps) {
 				return (
 					<div key={key} className='flex flex-col sm:flex-row gap-3 sm:gap-6'>
 
-						<p className='text-slate-400 min-w-fit'> { exp.date } </p>
+						<p className='text-slate-400 min-w-[8rem]'> { exp.date } </p>
 						
 						<div className='flex flex-col gap-3'>
 							<h2 className='text-xl text-slate-200 font-semibold'> { exp.title } </h2>
