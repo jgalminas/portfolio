@@ -16,7 +16,7 @@ export const EXPERIENCE: Experience[] = [
 		"- Consistently delivered new features promptly to accommodate challenging deadlines.",
 		date: '2023 Jun — 2023 Oct',
 		place: 'Freelance',
-		skills: [ 'TypeScript', 'React', 'Node.js', 'GPT', 'MySQL', 'tRPC', 'Tailwind', 'Docker']
+		skills: [ 'TypeScript', 'Next.js', 'React', 'Node.js', 'GPT', 'MySQL', 'tRPC', 'Tailwind', 'Docker']
 	},
 	{
 		title: 'Software Developer',
