@@ -1,3 +1,4 @@
+import { CV_NAME, LINKS } from '@/data';
 import Contacts from './Contacts';
 
 export default function About() {
@@ -13,8 +14,8 @@ export default function About() {
         <small className='absolute w-[30rem] h-[30rem] pb-80 left-0 top-0 rounded-br-full bg-gradient-to-br from-background2 to-background blur-3xl
         -z-10'/>
 
-        <a href='/cv.pdf' download='Justas Galminas CV.pdf'
-        className='bg-cyan-700 px-4 py-2 hover:shadow-lg text-sm font-medium rounded-sm transition-colors hover:bg-cyan-600 text-white mt-12 w-fit
+        <a href={LINKS.cv} download={CV_NAME}
+        className='bg-blue-500 px-4 py-2 hover:shadow-lg text-sm font-medium rounded transition-colors hover:bg-blue-600 text-white mt-12 w-fit
         duration-200'>
           Download CV
         </a>

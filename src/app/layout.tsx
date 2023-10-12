@@ -1,8 +1,5 @@
 import { ReactNode } from 'react';
-import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import '../styles.css'
 
 export const metadata = {
   title: "Justas Galminas",
@@ -17,7 +14,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-background`}>
+      <body className={`bg-background`}>
         { children }
       </body>
     </html>

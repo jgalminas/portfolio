@@ -1,4 +1,4 @@
-import { EDUCATION, EXPERIENCE, PROJECTS } from '@/data';
+import { EDUCATION, EXPERIENCE, LINKS, PROJECTS } from '@/data';
 import About from '../components/About';
 import Experience from '../components/Experience';
 import Projects from '@/components/Projects';
@@ -27,7 +27,7 @@ export default function Home() {
           <h1 className='text-2xl font-semibold text-white mb-12'> Projects </h1>
           <Projects data={PROJECTS}/>
 
-          <a href='https://github.com/jgalminas?tab=repositories'
+          <a href={LINKS.github_projects}
           target='_blank'
           className='float-right mt-12 text-slate-200 text-sm font-medium flex items-center gap-3 px-4 py-2 hover:bg-background2 rounded-sm
           transition-colors duration-200'>
