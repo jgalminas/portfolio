@@ -11,7 +11,7 @@ export default function About() {
           Hello! My name is Justas. I&apos;m a passionate software developer specialising in full-stack web development. I&apos;m most experienced with React, Next.js, TypeScript, C#, ASP.NET and Node.js, however, I like to continuously learn and keep up-to-date with the latest trends and technologies.
         </p>
         
-        <small className='absolute w-[30rem] h-[30rem] pb-80 left-0 top-0 rounded-br-full bg-gradient-to-br from-background2 to-background blur-3xl
+        <small className='absolute w-full md:w-[30rem] h-[30rem] pb-80 left-0 top-0 rounded-br-full bg-gradient-to-br from-background2 to-background blur-3xl
         -z-10'/>
 
         <a href={LINKS.cv} download={CV_NAME}
