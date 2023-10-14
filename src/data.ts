@@ -104,5 +104,5 @@ export const LINKS = {
 	github_profile: 'https://github.com/jgalminas',
 	github_projects: 'https://github.com/jgalminas?tab=repositories',
 	email: 'j@galminas.net',
-	cv: '/cv.pdf'
+	cv: '/Justas Galminas CV.pdf'
 }
