@@ -64,7 +64,7 @@ export const PROJECTS: Project[] = [
 		imageUrl: '/planner_dashboard.png',
 		imageAlt: 'Image of a project management application',
 		repositoryUrl: 'https://github.com/jgalminas/planner',
-		websiteUrl: 'https://planner-3a5de.web.app',
+		websiteUrl: 'https://planner.galminas.net',
 		skills: [ 'React', 'JavaScript', 'Firebase', 'Redux', 'CSS' ]
 	},
 	{
@@ -82,7 +82,7 @@ export const PROJECTS: Project[] = [
 		description: "A simple statically rendered blog website I created to learn Next.js.",
 		imageUrl: '/blog_home.png',
 		imageAlt: 'Image of a blog home page',
-		websiteUrl: 'https://blog-jgalminas.vercel.app/',
+		websiteUrl: 'https://blog.galminas.net',
 		repositoryUrl: 'https://github.com/jgalminas/blog',
 		skills: [ 'React', 'Next.js', 'JavaScript', 'CSS']
 	},
@@ -92,7 +92,7 @@ export const PROJECTS: Project[] = [
 		imageUrl: '/gsd_home.png',
 		imageAlt: 'Image of a landing page',
 		repositoryUrl: 'https://github.com/jgalminas/college-web-assignment',
-		websiteUrl: 'https://college-web-assignment.vercel.app/',
+		websiteUrl: 'https://gsd.galminas.net',
 		skills: [ 'HTML', 'CSS', 'Bootstrap', 'JavaScript' ]
 	}
 ];
@@ -103,6 +103,6 @@ export const LINKS = {
 	linked_in: 'https://linkedin.com/in/jgalminas/',
 	github_profile: 'https://github.com/jgalminas',
 	github_projects: 'https://github.com/jgalminas?tab=repositories',
-	email: 'j.galminas@gmail.com',
+	email: 'j@galminas.net',
 	cv: '/cv.pdf'
 }
